@@ -1,0 +1,13 @@
+name: django-test
+version: 0.1.0
+description: django test
+
+author:
+  name: Test User
+  email: test@example.org
+  url: http://example.org
+copyright: 2015 Studio Tate
+
+generators:
+  django:
+    version: latest

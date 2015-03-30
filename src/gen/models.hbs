@@ -1,0 +1,14 @@
+#
+# {{@name}}
+# @author {{@author.name}} <{{@author.email}}>
+# @copyright {{@copyright}}
+#
+
+from django.db import models
+{{#models}}
+
+class {{model.name.title}}(models.Model):
+	{{#details}}
+	{{detail.name.snake}} = models.{{detail.type}}()
+	{{/details}}
+{{/models}}

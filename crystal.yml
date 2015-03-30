@@ -1,0 +1,36 @@
+name: django
+version: 1.0.1
+description: django framework for crystal
+author:
+  name: Chris Tate
+  email: "chris@studiotate.com"
+  url: "http://studiotate.com"
+copyright: 2014 Studio Tate
+repository:
+  type: git
+  url: "git://github.com/crystalcodegen/django.git"
+gen:
+  file:
+    models:
+      dest: models.py
+generators:
+  project:
+    version: latest
+mapping:
+  model:
+    details:
+      type:
+        bool: BooleanField
+        created: DateTimeField
+        date: DateField
+        decimal: DecimalField
+        deleted: DateTimeField
+        id: null
+        image: ImageField
+        model: ForeignKey
+        number: IntegerField
+        string: CharField
+        time: TimeField
+        updated: DateTimeField
+patterns:
+  - model
