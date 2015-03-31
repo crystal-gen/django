@@ -1,3 +1,3 @@
-# django v1.0.1
+# django v0.1.0
 
 django framework for crystal

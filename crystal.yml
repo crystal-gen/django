@@ -1,5 +1,5 @@
 name: django
-version: 1.0.1
+version: 0.1.0
 description: django framework for crystal
 author:
   name: Chris Tate
@@ -8,7 +8,7 @@ author:
 copyright: 2014 Studio Tate
 repository:
   type: git
-  url: "git://github.com/crystalcodegen/django.git"
+  url: https://github.com/studiotate/django.git
 gen:
   file:
     models:
