@@ -1,6 +1,6 @@
 name: django
 version: 0.1.0
-description: [Django](http://djangoproject.com) framework for [Crystal](http://crystal.sh)
+description: '[Django](http://djangoproject.com) framework for [Crystal](http://crystal.sh)'
 author:
   name: Chris Tate
   email: "chris@studiotate.com"
